@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trivia Development</title>
+  <script src="https://kit.fontawesome.com/d928881196.js" crossorigin="anonymous"></script>
+  
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utils.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+  <!-- Project -->
+  <nav class="navbar">
+      <img src="logo.png" >
+    <ul>
+      <li><a href="/" class="home">Home</a></li>
+      <li><a href="/bot.html" class="bot">Bots</a></li>
+      <li><a href="/contact.html" class="contact">Contact</a></li>
+    </ul>
+  </nav>
+  <form onsubmit="callValue()">
+    <div class="box">
+      <input type="text" name="username" placeholder="Your Discord Username" id="uname">
+    </div>
+    <div class="box">
+    <input type="text" name="email" placeholder="Your Email" id="email">
+    </div>
+    <div class="box">
+    <textarea rows="4" cols="50" name="query" placeholder="Your Query" id="query"></textarea>
+    </div>
+    <div class="box">
+      <input type="submit" value="Submit" class="submit">
+    </div>
+  </form>
+</body>
+</html>

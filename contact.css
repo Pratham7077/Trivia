@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+  background: url("Picsart_23-07-17_09-44-30-679.jpg");
+  font-family: 'Noto Sans', sans-serif;
+  outline: 0;
+}
+::placeholder{
+  font-size: 17px;
+  color: white;
+}
+::-webkit-input-placeholder {
+  font-size: 17px;
+  text-align: bottom;
+}
+
+:-moz-placeholder {
+  text-align: bottom;
+  font-size: 17px;
+}
+form{
+  margin: 10px;
+  background: #1c799b00;
+  color: white;
+  align-self: center;
+  position: absolute;
+  top: 25%;
+}
+.box{
+  width: 100%;
+  background: #1c799b00;
+  font-size: 17px;
+}
+.box input, .box textarea{
+  margin: 25px;
+  background: #1c799b00;
+  width: 70%;
+  caret-color: white;
+}
+form textarea{
+  text-align: bottom;
+  width: 80vw;
+  display: inline-block;
+  border: 1px solid white;
+  color: white;
+  border-color: white;
+}
+form input{
+  border-color: white;
+  text-align: bottom;
+  height: 30px;
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+}
+.box .submit{
+  display: block;
+  margin: 25px;
+  background: #1c799b00;
+  width: 70px;
+  text-align: center;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-right: none;
+  border-left: none;
+}
+.box .submit:hover{
+  
+}
+
+.box input:hover, .box textarea:hover{
+  
+}
+@media screen and (max-width: 780px) {
+  body {
+    form{ margin: 10px;
+background: #1c799b00;
+color: white;
+align-self: center;
+position: absolute;
+top: 25%; left: 35%; }
+  }
+}

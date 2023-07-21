@@ -1,0 +1,38 @@
+*{
+  background: url("Picsart_23-07-17_09-44-30-679.jpg");
+}
+.home{
+  text-decoration: underline;
+}
+main{
+  font-family: 'PT Sans Caption', sans-serif;
+  margin: 5px;
+}
+.p1Bg{
+  text-align: center;
+   color: white;
+}
+
+.p1{
+  background-color: #0492c9;
+  border: 2px solid #0492c9;
+  border-radius: 10px;
+  opacity: 0.75;
+}
+/*.triviaTitle{
+  background-color: #0492c9;
+  border: 2px solid #0492c9;
+  border-radius: 10px;
+  opacity: 0.75;
+  /*display: block;
+  height: 10vh;
+  overflow-wrap: break-word;
+  width: 100%;
+}*/
+
+/* strong{
+  background-color: #0492c9;
+  border: 2px solid #0492c9;
+  border-radius: 10px;
+  opacity: 0.75;
+} */
